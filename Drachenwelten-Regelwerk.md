@@ -1,8 +1,5 @@
 <div class="title">Drachenwelten Regelwerk Version 7.0</div>
 
-# Vorwort #
-(todo)
-
 # Der Charakter #
 Im Rollenspiel schlüpfen Sie in die Rolle einer der fiktiven Personen einer fantastischen Geschichte. 
 Ob es sich dabei um einen strahlenden oder eher düsteren Helden, einen mächtigen Krieger, weisen Magier oder gewieften Dieb handeln wird, liegt an ihnen. 
@@ -68,7 +65,8 @@ Bei solchen Proben zeigt die Anzahl der Probenpunkte, wie gut das Ergebnis ist. 
 Das bedeutet, dass er in dieser Fertigkeit den Wert 0. Der Spieler kann wie üblich eine Probe gegen das passende Talent würfeln, darf aber keine Punkte addieren.
 
 #### Der Charakter hat einen negativen Fertigkeitswert ###
-Der Spieler muss entsprechend Punkte von seinem Würfelergebnis abziehen. Sind die Probenpunkte null oder negativ, bedeutet das in der Regel ein kritisches Scheitern - das oft mit Schaden für den Charakter verbunden ist.
+Der Spieler muss entsprechend Punkte von seinem Würfelergebnis abziehen. Sind die Probenpunkte negativ, bedeutet das ein kritisches Scheitern.
+
 
 ### Stärken ###
 Für einige Fertigkeiten zeigt der Charakter eine besondere Begabung. Er hat eine höhere Erfolgschance bei einer Probe, als ein anderer Charakter, auch wenn er den gleichen Wert in dieser Fertigkeit hat.
@@ -80,22 +78,16 @@ In dieser Fertigkeit ist der Charakter besonders untalentiert.
 
 Wenn die Fertigkeit zu den Schwächen des Charakters gehört, werden alle erzielten Probenpunkte halbiert.
 
-### Spezialisierung (alternative) (idee) ###
-Die "6er" zählen doppelt.
+### Spezialisierung (idee) (optional) ###
 
-## Charaktererstellung ##
-
-# Stärken und Schwächen wählen #
-(Vorschlag)
-* 5 Stärken
-* bis zu weitere 4 Stärken. Dafür muss jeweils eine Schwäche gewählt werden. 
+* 3 Stärken
+* bis zu weitere 3 Stärken. Dafür muss jeweils eine Schwäche gewählt werden. 
 
 # Erfahrung und Steigern #
 Nach einem bestandenen Abenteuer kann der Meister dem Charakter Erfahrungspunkte verleihen. Der Spieler kann die Erfahrungspunkte ausgeben, um seine Fertigkeitswerte zu erhöhen.
 Um eine Fertigkeit um einen Punkt zu erhöhen, müssen so viele Erfahrungspunkte eingesetzt werden, wie der momentane Fertigkeitswert beträgt.
 
 Z.B. Um "Klingenwaffen" von 3 auf 4 zu steigern, braucht der Spieler 4 Erfahrungspunkte
-
 
 # Verletzung und Tod
 Jedes mal wenn ein Charakter verletzt wird, erleidet er Schadenspunkte (SP). Diese werden auf dem Charakterbogen notiert. Je mehr Schadenspunkte er hat, desto näher ist er kritischen Wunden und dem Tod.
@@ -108,6 +100,7 @@ Der Charakter erhält einen Malus auf alle Fertigkeitsproben in der Höhe seiner
 
 **Verletzungstufen**
 |Stufe      | name                      | Auswirkung
+|--------   |:------------							|:-----------
 |1          | angeschlagen              | Proben -1
 |2          | verwundet                 | Proben -2
 |3          | schwer verwundet          | Proben -3
@@ -326,46 +319,58 @@ Geschickte Schützen können ihre Waffe in einer Runde abfeuern und über eine z
 #### Erschwernisse für die Fernkampf-Probe
 
 ##### Größe 
-Größe		           | Beispiel		        | Probe	
-:-----                 | ----------	            | -------:	
-winzig ( < 10cm)	   | Münze, Auge		    |    +10	
-sehr klein ( < 50cm)   | Ratte, Kaninchen	    |     +6	
-klein ( < 1m)		   | Adler, Ziege		    |     +3	
-mittel ( < 2m)		   | Mensch, Reh		    |      0
-groß (< 4m)		       | Scheunentor		    |     -2	
-riesig( > 4m)		   | Drache, Haus		    |     -4	
+
+Größe		           			| Beispiel		        | Probe	
+:-----                 	| ----------	            | -------:	
+winzig ( < 10cm)	   		| Münze, Auge		    |    +10	
+sehr klein ( < 50cm)   	| Ratte, Kaninchen	    |     +6	
+klein ( < 1m)		   			| Adler, Ziege		    |     +3	
+mittel ( < 2m)		   		| Mensch, Reh		    |      0
+groß (< 4m)		       		| Scheunentor		    |     -2	
+riesig( > 4m)		   			| Drache, Haus		    |     -4	
 
 ##### Entfernung
-Kategorie	    |	Probe	
+
+Größe		           			| Beispiel		        | Probe	
+:-----                 	| ----------	        | -------:	
+winzig ( < 10cm)	   		| Münze, Auge		    	|    +10	
+sehr klein ( < 50cm)   	| Ratte, Kaninchen	  |     +6	
+klein ( < 1m)		   			| Adler, Ziege		    |     +3	
+mittel ( < 2m)		   		| Mensch, Reh		    	|      0
+groß (< 4m)		       		| Scheunentor		    	|     -2	
+riesig( > 4m)		   			| Drache, Haus		    |     -4	
+
+##### Entfernung
+Kategorie	    	|	Probe	
 --------------  |	---------------	
 Greifweite	    |	-2	
 Nah	            |	0	
 Mittel	        |	+5	
-Weit	        |	+10	
-Überweit	    |	+15 oder mehr
+Weit	        	|	+10	
+Überweit	    	|	+15 oder mehr
 
 Was genau "Nah" bzw. "Weit" bedeutet, hängt von der verwendeten Waffe ab.
 
-Waffe	        |	Schaden	  |	Nah	      |	Mittel  |	Weit	  |	Max	|	Ladezeit	
+Waffe	        	|	Schaden	  |	Nah	      |	Mittel  |	Weit	  |	Max	|	Ladezeit	
 ---	            |	---	      |	---	      |	---	    |	---	    |	---	|	---	
-Schleuder	    |	3	      | 0-10      |	10-40   |	40-100	|	150	|	5	
-Kurzbogen	    |	4	      |	0-20	  |	20-40   |	40-100	|	200	|	5	
-Langbogen	    |	5	      |	0-20	  |	20-50   |	50-150	|	300	|	5	
-Armbrust	    |	6	      |	0-20	  |	20-60   |	60-150	|	250	|	12
-Donnerbüchse    |	8	      |	0-20	  |	20-75   |	75-200	|	300	|	20
-Wurfmesser	    |	2	      |	0-5	      |	5-10    |	10-15   |	20	|	1/4 ¹	
-Wurfbeil	    |	5	      |	0-5	      |	5-10    |	10-15   |	20	|	1/5 ¹
-Wurfspeer	    |	5	      |	0-10	  |	10-20   |	20-50   |	100	|	1/5 ¹
+Schleuder	    	|	3	      	| 0-10      |	10-40   |	40-100	|	150	|	5	
+Kurzbogen	    	|	4	      	|	0-20	  	|	20-40   |	40-100	|	200	|	5	
+Langbogen	    	|	5	      	|	0-20	  	|	20-50   |	50-150	|	300	|	5	
+Armbrust	    	|	6	      	|	0-20	  	|	20-60   |	60-150	|	250	|	12
+Donnerbüchse    |	8	      	|	0-20	  	|	20-75   |	75-200	|	300	|	20
+Wurfmesser	    |	2	      	|	0-5	      |	5-10    |	10-15   |	20	|	1/4 ¹	
+Wurfbeil	    	|	5	      	|	0-5	      |	5-10    |	10-15   |	20	|	1/5 ¹
+Wurfspeer	    	|	5	      	|	0-10	  	|	10-20   |	20-50   |	100	|	1/5 ¹
 
 ¹ Ladezeiten für (Off-Hand)/(Gürtel). Es können 1 Speer/Beil in der Off-Hand gehalten werden, sowie bis zu 3 Messer.
 
 
 ##### Bewegung
-|	Kategorie	            |	Probe
+|	Kategorie	            	|	Probe
 |	------------            |	------------
 |	unbeweglich	            |	 0
 |	laufend/geradelinig	    |	+3
-|	sprintend	            |	+5
+|	sprintend	            	|	+5
 |	Hakenschlagend	        |	+10
 
 
@@ -456,7 +461,6 @@ Gegenständliche Zauber hingegen sind rasch ausgelöst, können käuflich erworb
 ### Stab, Formel und Elixier - Zauber Vorbereiten
 Bei vielen Abenteurern findet sich der eine oder andere magische Gegenstand in der Ausrüstung, seien es Amulette zur Abwehr von finsterer Magie, Elixiere die auf wundersame Weise ihre Verletzungen heilen oder ihre Kräfte mehren. Zauberer oder Priester haben eine Tendenz dazu ein ganzes Sammelsurium aus Ritualgegenständen, Stäben, Ringen, Kräutern und Räucherwerk mit sich herum zu schleppen, das sie für ihre mystischen Rituale und Zaubereien benötigen. 
 
-
 Ein vorbereiteter Zauber hat eine festgelegte Wirkung und Schwierigkeit. Z.B.
 
 Zauber	    	| Auslöser                  | Fertigkeit  | Schwierigkeit		| Wirkung	
@@ -468,12 +472,8 @@ Heilung       | Elixier trinken           | Heilung     |           15²   | Das
 ¹ Der Magier richtet die Handflächen gegen sein Ziel und ruft eine Zauberformel
 ² wird im Voraus gewürfelt
 
-#### Magische Foci
-Die meisten Amulette, Zauberstäbe oder Ringe ermöglichen es dem Anwender einen (oder mehrere) bestimmte Zauber zu wirken, wie oben beschrieben. Dazu muss der Anwender die 
-
-#### Aufgeladene Artefakte
+#### Aufgeladene Artefakte (optional)
 Einige Artefakte, z.b. Zaubertränke sind im Voraus mit einem Zauber belegt. Nicht der Anwender, sondern der Hersteller des Artefakts wirkt den Zauber - zum Herstellungszeitpunkt. Die Herstellung dieser Artefakte ist schwieriger und benötigt mehr Zauberkraft. Ausserdem verlieren sie nach einiger Zeit ihre Zauberkraft. Wie lange das dauert, hängt von ihrer Qualität ab.
-
 
 ### Verzauberungen lösen
 Zauber aus dem Bereichen Verwandlungsmagie und Geistesmagie können vom Opfer abgewendet oder abgeschwächt werden. Dazu steht dem Opfer pro Runde (Kampf- oder Spielrunde) Zauberdauer eine Gegenprobe zu. Die Gegenprobe wird gegen die gleiche Fertigkeit, wie der gewirkte Zauber selbst gewürfelt - oder aber gegen die Fertigkeit "Magieschutz" Pro Probenpunkt verkürzt sich die Zauberdauer um eine Runde. 
